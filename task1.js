@@ -1,5 +1,9 @@
 export class Player {
-  constructor() {
-    
+  constructor(name) {
+    this.name = name;
+  }
+  name() {
+    return `Mi nombre es: ${this.name}`
   }
   }
+
